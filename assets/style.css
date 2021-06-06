@@ -26,7 +26,8 @@ body{
   #btnTranslate{
       width:7em;
       margin: auto;
-      background: #fce029;
+      background: #a87a51;
+      color: #fff;
       border:none;
       
       font-size:1.2em;
@@ -52,7 +53,8 @@ body{
     bottom: 0;
     position: absolute;
     width:100%;
-    background: #fce029;
+    background: #0a75bc;
+    color: #fff;
     padding: .8em 0;
     text-align: center;
     font-size: 1.2em;
