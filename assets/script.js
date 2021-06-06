@@ -7,7 +7,8 @@ var input_error = document.querySelector("#input_error")
 
 
 function constructURL(text) {
-  return serverURL + "?text=" + text;
+  text = encodeURI(text)
+  return serverURL + "?text=" + decodeURI(text);
 }
 function errorhandler(error) {
   
@@ -26,6 +27,7 @@ function handleClickEvent() {
     // setInterval(()=>input_error.innerText="",2000);
     
   } else {
+    
     fetch(constructURL(inputTxt)) //process
       .then((response) => response.json())
       .then(
