@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+    background: #fce029;
+    padding: 1em;
+    text-align: center;
+}
+.working_section{
+    padding: 0 2em;
+    margin: auto;
+    display: grid;
+}
+.write {
+    width: 60vw;
+    max-width: 600px;
+    height: 10vh;
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #000;
+  }
+  #btnTranslate{
+      width:7em;
+      margin: auto;
+      background: #fce029;
+      border:none;
+      
+      font-size:1.2em;
+      font-weight: bold;
+      padding: .5em;
+      cursor:pointer;
+  }
+  .output_section{
+      padding: 0 1em;
+      margin: 2em auto 0;
+  }
+  #output {
+    border: 1px solid #000;
+    width: 60vw;
+    max-width: 600px;
+    min-height: 5vh;
+    /* height: auto; */
+    display: block;
+    margin: 1em 0;
+    padding: 1em;
+  }
+  .copy_right{
+    bottom: 0;
+    position: absolute;
+    width:100%;
+    background: #fce029;
+    padding: .8em 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  #input_error{
+      margin: auto;
+      /* margin-top: 3em; */
+  }
